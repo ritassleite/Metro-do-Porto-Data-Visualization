@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		
+		<meta name="description" content="Information Visualization Project">
+		<meta name="author" content="Jonçalo, Roão e Gita">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Metro do Porto visualization</title>
+
+		<!-- Import libraries. -->
+		<script language="JavaScript" type="text/javascript" src="libs/d3.min.js"></script>
+		<script language="JavaScript" type="text/javascript" src="libs/d3-sankey.js"></script>
+	
+		<!-- JS -->
+		<script language="JavaScript" type="text/javascript" src="scripts/data_functions.js"></script>
+		<script language="JavaScript" type="text/javascript" src="scripts/light_dark.js"></script>
+    <script language="JavaScript" type="text/javascript" src="scripts/linechart.js"></script>
+		<script language="JavaScript" type="text/javascript" src="scripts/transitmap.js"></script>
+		<script language="JavaScript" type="text/javascript" src="scripts/radarchart.js"></script>
+		<script language="JavaScript" type="text/javascript" src="scripts/sankeydiagram.js"></script>
+		<script language="JavaScript" type="text/javascript" src="scripts/interactivity.js"></script>
+		<script language="JavaScript" type="text/javascript" src="scripts/init.js"></script>
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="style/styles.css"/>
+	</head>
+
+	<body>
+	<div id="title"></div>
+	<div id="subtitle"></div>
+	<select id="selectButton1" onchange="updateVis()"></select>
+	<select id="selectButton2" onchange="updateVis()"></select>
+	<button id="Reset_Time" onclick="ResetVis()">Reset</button>
+	<button id="Dark" onclick="SwitchTheme()">Theme</button>
+  	<div id="map"></div>
+  	<div id="lineChart"></div>
+  	<div id="radarChart"></div>
+	<div id="sankeyDiagram"></div>
+	<img id="imagem" src="Porto_Metro_logo.svg.png" alt="HTML5 Icon">
+	</body>
+</html>

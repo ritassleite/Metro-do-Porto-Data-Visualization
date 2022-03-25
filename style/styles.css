@@ -1,0 +1,149 @@
+body {
+    width: 100%;
+    float: left;
+    font-family: "Trebuchet MS";
+    background-color: rgb(214,218,230);
+}
+
+#title {
+    font-family: 'Trebuchet MS';
+    position:absolute; 
+    left:350px; 
+    top:10px;
+    width: 1000px;
+    font-size: 50px;
+    color: rgb(0,48,95);
+}
+
+#subtitle {
+    font-family: 'Trebuchet MS';
+    position:absolute; 
+    left:760px; 
+    top:33px;
+    width: 1000px;
+    font-size: 25px;
+    color: rgb(0,48,95);
+}
+
+#imagem {
+    position:absolute; 
+    left:280px; 
+    top:10px;
+    width:50px;
+    height:50px;
+}
+
+#map {
+    border-radius: 15px;
+    background-color: white;
+    position:absolute; 
+    left:50px; 
+    top:120px;
+}
+
+#lineChart {
+    border-radius: 15px;
+    background-color: white;
+    position:absolute; 
+    left:980px; 
+    top:400px;
+}
+
+#radarChart {
+    border-radius: 15px;
+    background-color: white;
+    position:absolute; 
+    left:1450px; 
+    top:120px;
+}
+
+#sankeyDiagram {
+    border-radius: 15px;
+    background-color: white;
+    position:absolute; 
+    left:50px; 
+    top:400px; 
+}
+
+#selectButton1 {
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    color: rgb(0,48,95);
+    position:absolute; 
+    left:50px;  
+    top:75px; 
+    font-size:20px; 
+    width:200px; 
+    height:30px;
+}
+
+
+
+#selectButton2 {
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    color: rgb(0,48,95);
+    position:absolute; 
+    left:300px; 
+    top:75px; 
+    font-size:20px; 
+    width:200px; 
+    height:30px;
+}
+
+#Reset_Time {
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    color: rgb(0,48,95);
+    position:absolute; 
+    left:550px; 
+    top:75px; 
+    font-size:20px; 
+    width:200px; 
+    height:30px;
+}
+#Dark {
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    color: rgb(0,48,95);
+    position:absolute; 
+    left: 1700px; 
+    top:40px; 
+    font-size:20px; 
+    width:100px; 
+    height:50px;
+}
+
+#barra1 {
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;    
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 180px;
+    height: 28px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+div.info_tooltip {
+    position: absolute;
+    text-align: left;
+    width: 320px;
+    height: 100px;
+    padding: 2px;
+    font: 15px "Trebuchet MS";
+    background: #ffe3b3;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
